@@ -12,19 +12,23 @@ This app currently works with:
 * Rails 6.1.4
 * PostgreSQL
 
-Once the code is pulled correctly and required dependencies are installed, execute one by one
+## Setup
 
-# bundle install (installs all the gems)
+* Once the code is pulled correctly and required dependencies are installed, execute one by one
 
-# rails db:create (creates database)
+ bundle install (installs all the gems)
 
-# rails db:migrate (executes the migration files)
+ rails db:create (creates database)
 
-# rails db:seed (some sample data is added in seed file)
+ rails db:migrate (executes the migration files)
 
-After this you should be able to start the server
+ rails db:seed (some sample data is added in seed file)
 
-##url
+* After this you should be able to start the server
+
+ rails s
+
+# url
 http://127.0.0.1:3000/user_exams  [POST]
 
 ## Sample api body
